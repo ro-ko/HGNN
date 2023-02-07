@@ -64,7 +64,9 @@ Select the feature that contribute to construct hypregraph incidence matrix by c
 ## How to construct hypergraph from graph dataset CORA, Pumbed
 
 The originaly repository does not support hypergraph dataset CORA, Pumbed. The way to produce the hypergraph dataset for its paper experiment(the related issue is found [here](https://github.com/iMoonLab/HGNN/issues/3)).  
+
 Becareful NaN or Inf problem during processing(the related issue is found [here](https://github.com/iMoonLab/HGNN/issues/14))  
+
 Or download dataset from [here](https://github.com/ro-ko/HyperGCN-pytorch).
 
 ### The experimental result of the paper
