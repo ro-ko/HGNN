@@ -33,6 +33,16 @@ python train.py
  decay_step | weight decay step | 200
  gamma | gamma | 0.9
 
+- Visual object task option  
+Select the feature that contribute to construct hypregraph incidence matrix by changing the status of parameters.
+ ```
+ # config/config.yaml
+ use_mvcnn_feature_for_structure: True
+ use_gvcnn_feature_for_structure: True
+ use_mvcnn_feature: False
+ use_gvcnn_feature: True
+ ```
+
  ## Experimental setting
 
  ### Datasets
@@ -117,6 +127,8 @@ We report the average of test errors (lower is better) with their standard devia
   Task | Method | Learning rate | Epochs | Error ± std
  ----- | ------ | ------ | ------- | -------
 
+ ## Recommand a deep learning toolbox named DHG for GNN and HGNN
+ Follow link [here](https://github.com/iMoonLab/DeepHypergraph) 
  
  ## References
  [1] Feng, Y., You, H., Zhang, Z., Ji, R., & Gao, Y. (2019). Hypergraph Neural Networks. Proceedings of the AAAI Conference on Artificial Intelligence, 33(01), 3558-3565. 
